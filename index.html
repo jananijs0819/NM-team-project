@@ -1,59 +1,187 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project Files</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
-            padding: 20px;
-        }
-        .container {
-            max-width: 600px;
-            background: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        li {
-            padding: 10px;
-            border-bottom: 1px solid #ddd;
-            display: flex;
-            align-items: center;
-        }
-        li a {
-            text-decoration: none;
-            color: #333;
-            font-weight: 500;
-        }
-        li a:hover {
-            color: #007bff;
-        }
-        .icon {
-            margin-right: 10px;
-        }
-    </style>
-</head>
-<body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>CRICKSTATS - Cricket Player Performance Tracking</title>
 
-<div class="container">
-    <h2>Project Files</h2>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background: linear-gradient(135deg, #071e3d, #0b4f6c, #01baef);
+        min-height: 100vh;
+        color: white;
+        padding: 40px 20px;
+    }
+
+    .container {
+        max-width: 950px;
+        margin: auto;
+        background: rgba(255, 255, 255, 0.12);
+        padding: 45px;
+        border-radius: 25px;
+        box-shadow: 0 15px 40px rgba(0, 0, 0, 0.35);
+        backdrop-filter: blur(12px);
+    }
+
+    .logo {
+        font-size: 55px;
+        text-align: center;
+        font-weight: bold;
+        letter-spacing: 5px;
+        color: #ffd166;
+        text-shadow: 0 0 15px rgba(255, 209, 102, 0.7);
+    }
+
+    .subtitle {
+        text-align: center;
+        margin-top: 10px;
+        font-size: 22px;
+        color: #e8f8ff;
+    }
+
+    .line {
+        width: 100px;
+        height: 4px;
+        background: #ffd166;
+        margin: 25px auto 35px;
+        border-radius: 10px;
+    }
+
+    h3 {
+        text-align: center;
+        font-size: 28px;
+        margin-bottom: 25px;
+        color: #ffffff;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    li {
+        margin: 15px 0;
+    }
+
+    a {
+        display: block;
+        padding: 18px 22px;
+        background: rgba(255, 255, 255, 0.15);
+        color: white;
+        text-decoration: none;
+        border-radius: 14px;
+        font-size: 18px;
+        font-weight: bold;
+        border-left: 5px solid #ffd166;
+        transition: 0.3s ease;
+    }
+
+    a:hover {
+        background: #ffd166;
+        color: #071e3d;
+        transform: translateX(10px);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    .footer {
+        text-align: center;
+        margin-top: 35px;
+        font-size: 14px;
+        color: #d9f4ff;
+    }
+
+    @media (max-width: 600px) {
+        .container {
+            padding: 25px 18px;
+        }
+
+        .logo {
+            font-size: 40px;
+        }
+
+        .subtitle {
+            font-size: 17px;
+        }
+
+        a {
+            font-size: 15px;
+            padding: 15px;
+        }
+    }
+</style>
+
+</head><body><div class="container">
+
+    <div class="logo">🏏 CRICKSTATS</div>
+
+    <div class="subtitle">
+        Cricket Player Performance Tracking Application
+    </div>
+
+    <div class="line"></div>
+
+    <h3>📚 Project Documents</h3>
+
     <ul>
-        <li>📄 <a href="Brainstorming & Ideation Phase.pdf">Brainstorming & Ideation Phase</a></li>
-        <li>📄 <a href="Requirement Analysis & Phase 2.pdf">Requirement Analysis & Phase 2</a></li>
-        <li>📄 <a href="Project Design Phase 3 nm.pdf">Project Design Phase 3 nm.pdf</a></li>
-        <li>📄 <a href="Project Planning Phase 4 nm.pdf">Project Planning Phase 4 nm.pdf</a></li>
-        <li>📄 <a href="Project Development Phase 5.pdf">Project Development Phase 5</a></li>
-        <li>📄 <a href="Project Testing Phase 6 nm.pdf">Project Testing Phase 6 nm.pdf</a></li>
-        <li>📄 <a href="Project Documentation Phase 7.pdf">Project Documentation Phase 7</a></li>
-        <li>📄 <a href="Project Demonstration Phase 8.pdf">Project Demonstration Phase 8</a></li>
+
+        <li>
+            <a href="Brainstorming%20%26%20Ideation%20Phase%201.pdf">
+                🧠 Brainstorming & Ideation — Phase 1
+            </a>
+        </li>
+
+        <li>
+            <a href="Requirement%20Analysis%20%26%20Phase%202.pdf">
+                📋 Requirement Analysis — Phase 2
+            </a>
+        </li>
+
+        <li>
+            <a href="Project%20Design%20Phase%203%20nm.pdf">
+                🎨 Project Design — Phase 3
+            </a>
+        </li>
+
+        <li>
+            <a href="Project%20Planning%20Phase%204%20nm.pdf">
+                📅 Project Planning — Phase 4
+            </a>
+        </li>
+
+        <li>
+            <a href="Project%20Development%20Phase%205%20nm.pdf">
+                💻 Project Development — Phase 5
+            </a>
+        </li>
+
+        <li>
+            <a href="Project%20Testing%20Phase%206%20nm.pdf">
+                🧪 Project Testing — Phase 6
+            </a>
+        </li>
+
+        <li>
+            <a href="Project%20Documentation%20Phase%207%20nm.pdf">
+                📖 Project Documentation — Phase 7
+            </a>
+        </li>
+
+        <li>
+            <a href="Project%20Demonstration%20Phase%208%20nm.pdf">
+                🎬 Project Demonstration — Phase 8
+            </a>
+        </li>
+
     </ul>
+
+    <div class="footer">
+        © 2026 CRICKSTATS | Cricket Performance Analytics
+    </div>
+
 </div>
 
 </body>
